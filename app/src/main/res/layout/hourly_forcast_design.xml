@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/hourlyImage"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/hourlyTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="30°C"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hourlyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="heavy shower rain and drizzle" />
+
+    <TextView
+        android:id="@+id/hourlyTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="time" />
+
+</LinearLayout>
